@@ -37,8 +37,8 @@ Mobile View
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/JMujuru00/Social-Links-For-Profile/blob/main/index.html))
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://jmujuru00.github.io/Social-Links-For-Profile/))
 
 ## My process
 
@@ -62,5 +62,5 @@ To continue my development after creating the profile card, I am focusing on imp
 
 ## Author
 
-- Website - [Joshua Mujuru](https://www.your-site.com)
+- Website - [Joshua Mujuru](https://github.com/JMujuru00)
 - Frontend Mentor - [@JMujuru00](https://www.frontendmentor.io/profile/yourusername)
