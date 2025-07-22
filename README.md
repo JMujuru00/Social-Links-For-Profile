@@ -33,6 +33,7 @@ Desktop View
 ![](./assets/images/Thumbnail_Desktop.JPG)
 
 Mobile View
+
 ![](./assets/images/Thumbnail_Mobile.png)
 
 ### Links
