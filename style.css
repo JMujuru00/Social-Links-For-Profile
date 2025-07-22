@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.profile-card {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 350px;
+    border-radius: 1.5rem;
+    /*height: 84%;*/
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: Inter-Regular;
+    padding-bottom: 15px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px;
+    padding-top: 10px;
+
+}
+
+h2 {
+    font-family: Inter-Regular;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-family: Inter-SemiBold;
+}
+
+.socail-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.socail-links a {
+    padding: 0.75rem;
+    width: 275px;
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px;
+    border-radius: 0.5rem;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-family: Inter-SemiBold;
+    transition: transform 0.3s;
+}
+
+.socail-links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    transform: translateY(-8px);
+}
+
+.attribution { 
+     font-size: 11px; 
+     text-align: center;
+     font-family: Inter-SemiBold;
+     color: hsl(0, 0%, 100%);
+}
+
+.attribution a { 
+    color: hsl(75, 94%, 57%); 
+    text-decoration: none;
+}
+
+/*.attribution a:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 12%);
+}*/
+
+.footer-links{
+    transition: transform 0.35s;
+    display: inline-block;
+}
+
+.footer-links:hover{
+    transform: translateY(-7px);
+}
